@@ -9,11 +9,35 @@
 		<version>3.5.3</version>
 		<relativePath/>
 	</parent>
-	<groupId>com.dlw</groupId>
+	<groupId>io.github.lekhtuz</groupId>
 	<artifactId>dlw-parent</artifactId>
 	<version>0.0.1</version>
+	<description>A parent POM for all my home projects, providing common configurations.</description>
+	<url>https://www.github.com/lekhtuz/dlw-parent</url>
 	<packaging>pom</packaging>
 
+	<licenses>
+		<license>
+			<name>The Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Dmitry Lekhtuz</name>
+			<email>lekhtuz@gmail.com</email>
+			<organization>io.github.lekhtuz</organization>
+			<organizationUrl>https://www.github.com/lekhtuz</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/your-github-username/your-repo-name.git</connection>
+		<developerConnection>scm:git:ssh://github.com:lekhtuz/dlw-parent.git</developerConnection>
+		<url>https://github.com/lekhtuz/dlw-parent/tree/master</url>
+	</scm>
+	
 	<properties>
 		<spring-boot.version>3.5.3</spring-boot.version>
 		<java.version>24</java.version>
