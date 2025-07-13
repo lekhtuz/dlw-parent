@@ -33,11 +33,11 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/your-github-username/your-repo-name.git</connection>
+		<connection>scm:git:git://github.com/lekhtuz/dlw-parent.git</connection>
 		<developerConnection>scm:git:ssh://github.com:lekhtuz/dlw-parent.git</developerConnection>
 		<url>https://github.com/lekhtuz/dlw-parent/tree/master</url>
 	</scm>
-	
+
 	<properties>
 		<spring-boot.version>3.5.3</spring-boot.version>
 		<java.version>24</java.version>
@@ -51,6 +51,18 @@
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-webflux</artifactId>
+				<version>${spring-boot.version}</version>
+				<exclusions>
+					<exclusion>
+						<groupId>org.springframework.boot</groupId>
+						<artifactId>spring-boot-starter-logging</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-data-r2dbc</artifactId>
 				<version>${spring-boot.version}</version>
 				<exclusions>
 					<exclusion>
