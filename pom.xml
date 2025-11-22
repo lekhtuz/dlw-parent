@@ -6,12 +6,12 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.5.3</version>
+		<version>4.0.0</version>
 		<relativePath/>
 	</parent>
 	<groupId>io.github.lekhtuz</groupId>
 	<artifactId>dlw-parent</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<description>A parent POM for all my home projects, providing common configurations.</description>
 	<url>https://www.github.com/lekhtuz/dlw-parent</url>
 	<packaging>pom</packaging>
@@ -39,10 +39,10 @@
 	</scm>
 
 	<properties>
-		<spring-boot.version>3.5.6</spring-boot.version>
-		<java.version>24</java.version>
+		<spring-boot.version>4.0.0</spring-boot.version>
+		<java.version>25</java.version>
 		<guava.version>33.5.0-jre</guava.version>
-		<lombok.version>1.18.38</lombok.version>
+		<lombok.version>1.18.42</lombok.version>
 		<commons-collections4.version>4.5.0</commons-collections4.version>
 	</properties>
 
